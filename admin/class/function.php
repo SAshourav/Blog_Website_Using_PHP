@@ -33,8 +33,6 @@
                 $admin_info = mysqli_query($this->conn, $query);
                 if($admin_info){
                     header("location: dashboard.php");
-                }else{
-                    header("location: dashboard.php");
                 }
             }
         }
